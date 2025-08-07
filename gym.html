@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #dbdadb;
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        .content {
+            text-align: center;
+            padding: 20px; /* Add some padding around the content */
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center; /* Center the image horizontally */
+            margin-bottom: 20px; /* Add some space below the image */
+        }
+
+        .gym {
+            width: 450px;
+            object-fit: cover; /* Maintain aspect ratio and cover container */
+            border-radius: 8px; /* Optional: Add rounded corners */
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+        }
+
+        .title {
+            text-align: left;
+            padding-left: 25px;
+            margin-bottom: 20px; /* Add space below the title */
+        }
+
+        .info-container {
+            padding-left: 25px;
+            padding-right: 25px;
+            text-align: left;
+        }
+
+        .info-heading {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .info-list {
+            margin-bottom: 15px; /* Add space below the lists */
+        }
+
+        .info-list li {
+            line-height: 1.6; /* Improve readability */
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="content">
+        <h1 class="title">University Gymnasium</h1>
+        <div class="image-container">
+            <img src="/images/buildings/gym1.jpg" alt="Gym" class="gym">
+        </div>
+
+        <div class="info-container">
+            <div>
+                <p class="info-heading">In the UPang Gym you may find:</p>
+                <ul class="info-list">
+                    <li>The Teller's Section (open for queries regarding finance and payment of fees)</li>
+                    <li>The Enrollment Site for Incoming Students</li>
+                </ul>
+            </div>
+
+            <div>
+                <p class="info-heading">Areas right next to or adjacent to the UPANG Gym:</p>
+                <ul class="info-list">
+                    <li>The MBA Building</li>
+                    <li>The Nursing Building</li>
+                    <li>The Student Plaza</li>
+                    <li>PHINMA Avenue</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

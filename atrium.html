@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atrium</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #dbdadb;
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        .content {
+            text-align: center;
+            padding: 20px; /* Add some padding around the content */
+        }
+
+        .atrium-container {
+            display: flex;
+            justify-content: center; /* Center the image horizontally */
+            margin-bottom: 20px; /* Add some space below the image */
+        }
+
+        .atrium {
+            object-fit: cover;
+            width: 450px;
+            height: 350px;
+            border-radius: 8px; /* Optional: Add rounded corners to the image */
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+        }
+
+        .title {
+            text-align: left;
+            padding-left: 25px;
+            margin-bottom: 20px; /* Add some space below the title */
+        }
+
+        .info-block {
+            padding-left: 25px;
+            padding-right: 25px;
+            text-align: left;
+            margin-bottom: 15px; /* Add some space below this info block */
+        }
+
+        .info-block-heading {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .info-block-list {
+            margin-bottom: 10px;
+        }
+
+        .info-block-list li {
+            line-height: 1.6;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="content">
+        <h1 class="title">
+            University Atrium</h1>
+        <div class="atrium-container">
+            <img src="/images/buildings/atrium.jpg" alt="atrium" class="atrium">
+        </div>
+
+        <div class="info-block">
+            <p class="info-block-heading">In this area you may find:</p>
+            <ul class="info-block-list">
+                <li>The Center for Student Development and Leadership (CSDL) Office</li>
+                <li>The Marketing Department</li>
+                <li>The Information Technology Services (ITS) Office</li>
+            </ul>
+            <p>This area may be found right after entering the Main Gate.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

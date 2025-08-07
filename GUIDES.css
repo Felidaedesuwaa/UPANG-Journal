@@ -1,0 +1,141 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding-top: 178px;
+    background-color: #f4f4f4;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.search-bar {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0;
+}
+
+.faq-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.faq-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-item h3 {
+    margin: 0;
+    flex-grow: 1;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.faq-item p {
+    margin: 0;
+    color: #666;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #ddd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.logo-text {
+    display: flex;
+    align-items: center;
+}
+.logo-text h1{
+    font-size: 30px;
+}
+.logo {
+    width: 90px;
+    height: 90px;
+    margin-right: 8px;
+}
+.search-bar-orig input {
+    padding: 5px;
+    font-size: 14px;
+    width: 300px;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(255,255,255,0.7);
+    backdrop-filter: blur(10px);
+    padding: 10px 0;
+    border-bottom: 2px solid #ddd;
+    position: fixed;
+    top: 112px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.nav-links a {
+    text-align: center;
+    width: 340px;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #384e24;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.nav-links a:hover {
+    background-color: #a78c00 !important;
+    transform: scale(1.05);
+}
+.nav-links a img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.nav-links a.active {
+    background-color: #a78c00 !important;
+}
+

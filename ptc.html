@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTC</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #dbdadb;
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .atrium { /* Reusing the style, might want a more specific name like .ptc-image */
+            object-fit: cover;
+            width: 450px;
+            height: 350px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .title {
+            text-align: left;
+            padding-left: 25px;
+            margin-bottom: 20px;
+        }
+
+        .info-container {
+            padding-left: 25px;
+            padding-right: 25px;
+            text-align: left;
+        }
+
+        .info-heading {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .info-list {
+            margin-bottom: 15px;
+        }
+
+        .info-list li {
+            line-height: 1.6;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="content">
+        <h1 class="title">
+            PTC
+        </h1>
+        <div class="image-container">
+            <img src="/images/buildings/ptc.jpg" alt="ptc" class="atrium">
+        </div>
+
+        <div class="info-container">
+            <div>
+                <p class="info-heading">In this building you may find:</p>
+                <ul class="info-list">
+                    <li>Dedicated learning spaces for Information Technology students, fostering innovation and collaboration.</li>
+                    <li>Modern computer laboratories equipped with the latest hardware and software relevant to the IT field.</li>
+                    <li>Classrooms designed for interactive lectures and discussions on various IT subjects.</li>
+                    <li>Potentially faculty offices and consultation areas for IT professors and instructors.</li>
+                    <li>Student lounges or common areas where IT students can connect, study, and collaborate.</li>
+                </ul>
+            </div>
+
+            <div>
+                <p class="info-heading">This building is the central hub for our Information Technology students, conveniently located near the Main Gate and in close proximity to:</p>
+                <ul class="info-list">
+                    <li>Information Technology Support</li>
+                    <li>University Atrium</li>
+                    <li>Office of the President</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
